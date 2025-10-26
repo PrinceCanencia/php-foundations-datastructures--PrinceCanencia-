@@ -1,55 +1,33 @@
-# PHP Data Structures and Algorithms Project
+ PHP Data Structures and Algorithms Project
 
-## Project Purpose
+ Project Purpose
 This project demonstrates fundamental data structures and algorithms implemented in PHP.  
-It includes examples of **Recursion**, **Hash Tables**, and **Binary Search Trees (BST)**, with an optional integrated interface to test all modules.
-
+It includes examples of Recursion, Hash Tables, and Binary Search Trees (BST), with an optional integrated interface to test all modules.
 Each part is designed to show how these core computer science concepts work in practice, using simple PHP scripts that can be run locally or via a web server.
 
----
-
-## ⚙️ Files Overview
-| File | Description |
-|------|--------------|
-| `recursive.php` | Demonstrates recursion (e.g., factorial, Fibonacci, or similar functions). |
-| `hash.php` | Implements a simple hash table for key-value storage and retrieval. |
-| `BST.php` | Implements a Binary Search Tree with insert, search, and traversal methods. |
-| `index.php` | (Optional) Integrated interface combining all modules into one application. |
+ How to Run
+The main.php file acts as the main controller that runs both the hash table and recursion scripts together. It includes or requires the other two PHP files
+and executes their functions sequentially to display the combined output.
+The hashtable.php file runs independently to demonstrate how data is inserted, searched, and displayed using a hash table structure.
+The recursive.php file executes a recursive function that performs a specific task (such as calculating factorials or traversing data)
+to show how recursion works in PHP. Each file can be run individually to observe its behavior, or all can be executed together through main.php.
 
 
-http://localhost/ProjectName/
----
+Example output:
 
-##  How to Run
-
-### Option 1: Run Locally (Recommended)
-1. Install [XAMPP](https://www.apachefriends.org/) or any PHP server.
-2. Copy all project files into your server’s web directory (e.g., `htdocs/ProjectName`).
-3. Start Apache from the XAMPP Control Panel.
-4. Open your browser and navigate to:
-
-5. Click or run each file to view individual examples:
-- `recursive.php` → Recursion demo  
-- `hash.php` → Hash Table demo  
-- `BST.php` → Binary Search Tree demo  
-- `index.php` → Integrated interface (if applicable)
-
-### Option 2: Run via CLI
-If you prefer running directly in the terminal:
-```bash
-php recursive.php
-php hash.php
-php BST.php
-
-Example output
 Hashtable
-<img width="1363" height="632" alt="Screenshot 2025-10-25 170641" src="https://github.com/user-attachments/assets/691c8e2b-92c3-4a96-ae2d-e6c794ad395f" />
+<img width="1363" height="632" alt="Image" src="https://github.com/user-attachments/assets/dcde5c71-9dab-45a8-a38d-9712823b6845" />
 
 Binary Search Tree
-<img width="1365" height="634" alt="Screenshot 2025-10-25 170810" src="https://github.com/user-attachments/assets/2223b63b-fd69-45a8-ae36-538e130f883b" />
+<img width="1365" height="634" alt="Image" src="https://github.com/user-attachments/assets/0401bb3f-29f3-4844-95d8-b2b765dc8bb0" />
 
 Recursive
-<img width="1365" height="626" alt="Screenshot 2025-10-25 170926" src="https://github.com/user-attachments/assets/96b22ac3-efdc-4cc3-9189-6b04d5461930" />
-<img width="1362" height="544" alt="Screenshot 2025-10-25 170950" src="https://github.com/user-attachments/assets/731459d3-2ec5-491c-be5d-527901a0fb60" />
-<img width="1365" height="630" alt="Screenshot 2025-10-25 171008" src="https://github.com/user-attachments/assets/80196203-25ea-4d5c-9ab7-a042939f7299" />
+<img width="1365" height="626" alt="Image" src="https://github.com/user-attachments/assets/3ee08b97-30b7-48cd-ba7b-2a4eb167d6e8" />
+
+<img width="1362" height="544" alt="Image" src="https://github.com/user-attachments/assets/9343749a-ff26-429d-a678-347486489f4b" />
+
+<img width="1365" height="630" alt="Image" src="https://github.com/user-attachments/assets/f3d23ef3-fcf6-4e0c-afb3-1075370d4676" />
+
+Main
+<img width="1365" height="767" alt="Image" src="https://github.com/user-attachments/assets/dc6d5a7b-ac07-4a8a-8eea-df476ac4146e" />
 
